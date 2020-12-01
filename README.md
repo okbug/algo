@@ -6,7 +6,7 @@
 [剑指offer](./jzoffer/README.md)
 
 
-[91算法](./my-solutions)
+[91算法](./my-solutions/README.md)
 
 
 尝试过
