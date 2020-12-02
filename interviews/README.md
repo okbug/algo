@@ -14,3 +14,5 @@
 
 ----
 - [剑指 Offer 27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+
+KMP 最长子串类型题目(滑动窗口)
