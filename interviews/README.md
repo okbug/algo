@@ -16,3 +16,37 @@
 - [剑指 Offer 27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
 
 KMP 最长子串类型题目(滑动窗口)
+
+
+----
+
+2020-12-09 第一次面试(二面挂)
+字节跳动
+一面先来直接问网络，给我问到不会了为止
+然后CSS、JS、算法
+
+力扣原题：
+
+[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) 
+本来是用一个数组来存的，最后让我用两个值来存储前两个数（知道思路但是忘了）很可惜
+[92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 反转从位置 m 到 n 的链表。
+[剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
+
+JS手写题
+手写bind
+手写继承 inherit(A, B) 其实没懂到底怎么继承
+给Number加一个方法 可以获取小数点后n位 (1.23457.xxfunc(2) -> 1.23)
+```js
+Number.prototype.func = function(n) {
+  let str = String(this)
+  let [inter, float] = str.split('.')
+  inter = inter + '.'
+  for(let i = 0;i < n;i++) {
+    inter+=float[i]
+  }
+  return Number(inter)
+}
+let str1 = 1.2345.func(3)
+let str2 = 1.2345.func(2)
+console.log(str1, str2)
+```
