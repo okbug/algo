@@ -22,22 +22,53 @@ KMP 最长子串类型题目(滑动窗口)
 
 2020-12-09 第一次面试(二面挂)
 字节跳动
-一面先来直接问网络，给我问到不会了为止
-然后CSS、JS、算法
+一面，上来让我自我介绍，可能是因为说的不够多吧，面试官先问我，学习前端多久和如何学习前端，然后说了一句：“接下来正式开始面试了，问你一些网络的问题吧”
+后来想想，先前问我的两个问题可能就是在教我怎么自我介绍吧，还是挺感激的。
+然后直接开始问网络，给我问到不会了为止。具体流程：
+先问我网络模型是啥 我就说OSI7层，然后把每一层都背了一遍（物数网传会表应)
+有一个和这个模型类似的，是啥，我说是一个什么五层（物数网传应）
+分别说说每一层中有哪些东西
+  我就说了http啊 TCP/IP之类的 然后就根据我说的这些来展开问
+经典题目：从url输入到页面展现之间发生了什么
+从这个题目引导问我：重排重绘，浏览器缓存、三握四挥等等。还有script标签的async和defer
 
-力扣原题：
-
+接下来开始CSS题目：
+盒子模型有哪些：
+  box-sizing的两个属性
+  好像没有了，也可能是忘记了。
+JS：
+数据类型有哪些 （我说了Symbol和BigInt后也简单问了一下这两是什么）
+如何判断数据类型
+[] instanceof Object 的结果是什么:
+true，问我为什么 因为[] instanceof Array, Array instanceof Function、Function instanceof Object所以结果是true
+手写bind
+什么是事件委托和事件冒泡
+如何启动事件冒泡和事件委托 (addEventListener的第三个参数）
+IE中如何触发click事件（除了DOM中的onclick=“”，addEventListener，onclick) 这个我真不知道
+然后问了斐波那契函数 
+其实就是下面这题
 [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) 
-本来是用一个数组来存的，最后让我用两个值来存储前两个数（知道思路但是忘了）很可惜
+本来是用一个数组来存的(空间O(n))，最后让我空间用O(1)（知道思路但是忘了 只用两个值来存储前两个数 而不是数组）很可惜
+
+然后考了一题打印二叉树 也是原题（不会做， 就怪自己当时没有好好刷一刷）
+然后我开玩笑说让面试官给出一题链表题，结果出了一题 不会做的 还是自己没好好刷题的缘故。
 [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 反转从位置 m 到 n 的链表。
 [剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
 
-JS手写题
-手写bind
+然后是反问阶段。
+
+
+二面：
+让我自我介绍，并且说比较熟悉的技术栈。
+我就说了vue。
+vur-router的基本使用啊，包括如何在实例中通过this.$router来获取router实例。
+跨域 手写JSONP
+ES6中出现的新特性有什么你认为比较好用的(这里给自己挖坑了)
 手写继承 inherit(A, B) 其实没懂到底怎么继承
-给Number加一个方法 可以获取小数点后n位 (1.23457.xxfunc(2) -> 1.23)
+给Number加一个方法 可以获取小数点后n位 (1.23457.xxfunc(2) -> 1.23) 
+别问为啥叫xxfunc，因为原来的方法名字我忘了
 ```js
-Number.prototype.func = function(n) {
+Number.prototype.xxfunc = function(n) {
   let str = String(this)
   let [inter, float] = str.split('.')
   inter = inter + '.'
@@ -48,5 +79,11 @@ Number.prototype.func = function(n) {
 }
 let str1 = 1.2345.func(3)
 let str2 = 1.2345.func(2)
-console.log(str1, str2)
+console.log(str1, str2) // 1.234 1.23
 ```
+面试官自己出了一个力扣第一题加强版 就是 三数之和 要求数组中找三个数 这三个数相加等于target 我说了下思路，说自己写不出来。
+最后问我，目前在学习什么（问了我这个问题的时候我还以为自己是要过了）
+但是最后很可惜 不出半个小时就有hr加了我的微信告诉我已经挂掉了。
+
+总体来说还是很可惜，以后努力朝网络和算法这方面学习吧。
+现在就是准备春招了
