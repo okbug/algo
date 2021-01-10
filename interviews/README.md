@@ -51,6 +51,36 @@ IE中如何触发click事件（除了DOM中的onclick=“”，addEventListener�
 其实就是下面这题
 [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) 
 本来是用一个数组来存的(空间O(n))，最后让我空间用O(1)（知道思路但是忘了 只用两个值来存储前两个数 而不是数组）很可惜
+```js
+var fib = function(n) {
+    if (n < 2) {
+        return n;
+    }
+    let p = 0, q = 0, r = 1;
+    for (let i = 2; i <= n; i++) {
+        p = q;
+        q = r;
+        r = p + q;
+    }
+    return r;
+};
+```
+
+```python3
+class Solution(object):
+    def Fibonacci(self, n):
+        if n < 2 :
+            return n
+        p = q = 0
+        r = 1
+        for i in range(2, n + 1):
+            p = q
+            q = r
+            r = q + p
+        return r
+```
+
+
 
 然后考了一题打印二叉树 也是原题（不会做， 就怪自己当时没有好好刷一刷）
 然后我开玩笑说让面试官给出一题链表题，结果出了一题 不会做的 还是自己没好好刷题的缘故。
