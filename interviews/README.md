@@ -79,7 +79,7 @@ class Solution(object):
             r = q + p
         return r
 ```
-1
+
 
 
 然后考了一题打印二叉树 也是原题（不会做， 就怪自己当时没有好好刷一刷）
