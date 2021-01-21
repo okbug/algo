@@ -71,28 +71,32 @@ beforeM.next = pre
 console.log(link2arr(beforeM)) */
 
 
-var kthToLast = function(head, k) {
+var rotateRight = function(head, k) {
   let len = 0
   let p1 = head
   while(p1) {
       len++
       p1 = p1.next
   }
-  p1 = head
-  // console.log(len)  5 
-  for(let i = 0;i < k - 1;i++) {
-      p1 = p1.next
-      // console.log(p1.val)
+  k = k % len
+  for(let i = 0; i < k;i++) {
+    head = change(head)
   }
-  // 现在p1 在 第 k 个节点
-
-  let p2 = head
-  while(p1.next) {
-    console.log(1)
-    p1 = p1.next
-    p2 = p2.next
+  console.log(link2arr(head))
+  function change(head) {
+      let first = head
+      let second = first.next
+      let end = head
+      while(end.next.next) {
+          end = end.next
+      }
+      let d2 = end
+      end = end.next
+      d2.next = null
+      end.next = head
+      return end
+      // console.log(end.val) 此时 end 是最后的节点
   }
-  console.log(p2.val)
 };
 
-kthToLast(arr2link([1,2,3,4,5]), 2)
+rotateRight(arr2link([1,2,3,4,5]), 2)
