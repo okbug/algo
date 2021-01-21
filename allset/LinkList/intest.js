@@ -71,3 +71,28 @@ beforeM.next = pre
 console.log(link2arr(beforeM)) */
 
 
+var kthToLast = function(head, k) {
+  let len = 0
+  let p1 = head
+  while(p1) {
+      len++
+      p1 = p1.next
+  }
+  p1 = head
+  // console.log(len)  5 
+  for(let i = 0;i < k - 1;i++) {
+      p1 = p1.next
+      // console.log(p1.val)
+  }
+  // 现在p1 在 第 k 个节点
+
+  let p2 = head
+  while(p1.next) {
+    console.log(1)
+    p1 = p1.next
+    p2 = p2.next
+  }
+  console.log(p2.val)
+};
+
+kthToLast(arr2link([1,2,3,4,5]), 2)
