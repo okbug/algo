@@ -79,6 +79,7 @@ var rotateRight = function(head, k) {
       p1 = p1.next
   }
   k = k % len
+  
   for(let i = 0; i < k;i++) {
     head = change(head)
   }
