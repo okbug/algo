@@ -1,4 +1,5 @@
 # Promise.all
+当场没写完整，后面提示了才知道，在then里面在计算最后的index值，否则直接resolve了
 ```js
 Promise.all = function(promises) {
   return new jPromise((resolve,reject)=>{
@@ -75,3 +76,7 @@ function two2ten(num) {
 }
 ```
 然后让我10转16的话，我是先写了一个map，来存储A-F所对应的数字，然后依次类推的
+
+
+最后的评价是：
+题目都做出来了，但是的话嘞，缺少异常的处理...
