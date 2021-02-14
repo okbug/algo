@@ -5,5 +5,5 @@
 
 
 [各种排序](./sort.md)
-
+[周赛记录](./weekly-contests)
 ...待更新
