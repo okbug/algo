@@ -1,0 +1,1 @@
+C++中for (auto x : nums) === JS 中 for(let x of nums)
