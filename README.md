@@ -36,6 +36,10 @@
 
 [ACWING每日练手速计划](./acwing.md)
 
+[力扣C++计划](./lc-cpp/README.md)
+[进度切换](https://leetcode-cn.com/session/)
+
+> 已废弃 没有坚持下去...
 每日一学计划：
 2021-1-16： 并查集
 2021-1-17： Trie
