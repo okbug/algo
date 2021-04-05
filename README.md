@@ -1,10 +1,23 @@
 # 暂时计划：
-每天刷:
-11 
+
+## 每天刷: 巩固以及熟悉
+
+第一期：2021/4/5 之前： 
+> 11 
 
 [53](https://leetcode-cn.com/problems/maximum-subarray) 
 
-94 102 104 111 121 144 145
+94 102 104 111 121 144 145 
+----
+2021/4/5开始，每天刷：
+
+[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+
+[59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+
+[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+待补充
+----
 
 [leetcode究极计划（刷穿力扣）](./acwing_leetcode_all/README.md)
 
