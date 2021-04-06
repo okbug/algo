@@ -27,8 +27,10 @@
 
 [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
 
-[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) (一次笔试)
+[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)  笔试 DP
+
 待补充
+
 ----
 
 [leetcode究极计划（刷穿力扣）](./acwing_leetcode_all/README.md)
