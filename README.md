@@ -11,11 +11,17 @@
 ----
 2021/4/5开始，每天刷：
 
-[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) (3月份每日一题)
 
-[59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+[59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) (3月份每日一题)
 
-[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+
+[80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) [来源](./my-solutions/history-daily/2021-04/2021-04-06.80.md)
+
+
+[88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) [来源](./my-solutions/history-daily/2021-04/2021-04-05.88.md)
+
+[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) (一次笔试)
 待补充
 ----
 
