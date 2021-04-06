@@ -21,6 +21,10 @@
 
 [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) [来源](./my-solutions/history-daily/2021-04/2021-04-05.88.md)
 
+链表的插入，快速排序 [acwing 1451. 单链表快速排序](https://www.acwing.com/activity/content/problem/content/1899/1/) 笔试算法面试辅导课
+[147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/)
+[148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
+
 [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) (一次笔试)
 待补充
 ----
