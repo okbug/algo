@@ -1,4 +1,7 @@
+// https://leetcode-cn.com/contest/biweekly-contest-51/
+
 // 第一题 
+// https://leetcode-cn.com/problems/replace-all-digits-with-characters/
 var replaceDigits = function(s) {
   let a = 'abcdefghijklmnopqrstuvwxyz'
   // let map = {}
