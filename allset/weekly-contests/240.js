@@ -17,20 +17,10 @@ var maximumPopulation = function(logs) {
 
 // let res = maximumPopulation([[2033,2034],[2039,2047],[1998,2042],[2047,2048],[2025,2029],[2005,2044],[1990,1992],[1952,1956],[1984,2014]])
 var maxDistance = function(nums1, nums2) {
-  // let count = 0
-  let res = []
-  for(let i = 0 ; i < nums1.length; i ++) {
-    if( i > 0 && nums1[i] < nums1[i - 1]) i++
-    for(let j = i + 1; j < nums2.length; j ++) {
-      if(nums1[i] <= nums2[j]) res.push(j - i)
-    }
+  let res = 0
+  for(let j = nums2.length - 1, i = nums1.length - 1; j >= 0 ; j -- ) {
+      while (i && nums1[i - 1] <= nums2[j]) i --;
+      if (nums1[i] <= nums2[j]) res = Math.max(res, j - i)
   }
-  let r = 0
-  r = Math.max(r, ...res)
-  return r
+  return res
 };
-let res = maxDistance([55,30,5,4,2], [100,20,10,10,5])
-let res2 = maxDistance([2,2,2], [10,10,1])
-let res3 = maxDistance([30,29,19,5], [25,25,25,25,25])
-let res4 = maxDistance([5,4], [3,2])
-console.log(res, res2, res3, res4);
