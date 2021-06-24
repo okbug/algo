@@ -2,6 +2,22 @@
 
 ## 每天刷: 巩固以及熟悉
 
+每日必刷
+2021.6.25：
+
+DP:
+[746 最小发费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+[53](https://leetcode-cn.com/problems/maximum-subarray) 
+
+前面的也要刷
+
+
+----
+
+
+
+
 第一期：2021/4/5 之前： 
 > 11 
 
