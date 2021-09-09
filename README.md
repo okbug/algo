@@ -7,10 +7,15 @@
 
 DP:
 [746 最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+
 [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
-[53](https://leetcode-cn.com/problems/maximum-subarray) 
+
+[53](https://leetcode-cn.com/problems/maximum-subarray)
+
 [673.最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)
+
 [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+
 [62. 不同路径](https://leetcode-cn.com/problems/unique-paths)
 
 前面的也要刷
