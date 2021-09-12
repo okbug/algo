@@ -31,7 +31,7 @@ function getValueByPath(obj, path) {
 
 const object = { 'a': [{ 'b': { 'c': 3 } }] };
 
-console.log(getValueByPath(object, 'a[0].b.c'))
+console.log(getValueByPath(object, 'a[0].b.cs'))
 
 /**
 
