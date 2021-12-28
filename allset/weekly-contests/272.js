@@ -1,4 +1,7 @@
 const f = n => n * (n + 1) / 2;
+
+debugger
+
 var getDescentPeriods = function(prices) {
     const arr = [];
     let i = 0;
@@ -21,6 +24,8 @@ var getDescentPeriods = function(prices) {
     
     // console.log(arr);
     console.log(sum)
+
+    return sum
 };
 
 const res = getDescentPeriods([3,2,1,4])
