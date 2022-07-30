@@ -65,3 +65,19 @@ public:
 };
 ```
 
+
+
+# Map
+C++中的Map
+头文件叫做
+unordered_map
+
+## 用法
+
+int main() {
+  unordered_map<int, int /*KeyType, ValueType */> map;
+  map[1]++; // 默认为1
+  map.count(1); // 1的值
+  // 剩下的不记得了
+  
+}
